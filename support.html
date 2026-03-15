@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Custoria</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #7C3AED 0%, #581C87 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        h2 {
+            color: #7C3AED;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        .support-option {
+            background: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #7C3AED;
+        }
+        
+        .support-option h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .support-option p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-button {
+            display: inline-block;
+            background: #7C3AED;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .contact-button:hover {
+            background: #6d28d9;
+        }
+        
+        .faq-item {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f0e6ff;
+            border-radius: 8px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #7C3AED;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .faq-answer {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .quick-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .quick-links a {
+            color: #7C3AED;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛟 Custoria Support</h1>
+            <p class="subtitle">We're here to help!</p>
+        </header>
+
+        <div class="content">
+            <h2>Get in Touch</h2>
+            
+            <div class="support-option">
+                <h3>📧 Email Support</h3>
+                <p>For general inquiries, technical issues, or feedback:</p>
+                <a href="mailto:support@custorialabs.io" class="contact-button">Email Us</a>
+            </div>
+
+            <div class="support-option">
+                <h3>🌐 Website</h3>
+                <p>Visit our website for more information:</p>
+                <a href="https://custorialabs.io" class="contact-button" target="_blank">Visit Website</a>
+            </div>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I reset my password?</div>
+                <div class="faq-answer">
+                    On the login screen, tap "Forgot Password" and enter your email. We'll send you instructions to reset your password.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is my data safe?</div>
+                <div class="faq-answer">
+                    Absolutely! Custoria uses military-grade end-to-end encryption with zero-knowledge architecture. We cannot access your vault items - only you can.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How accurate are AI value estimates?</div>
+                <div class="faq-answer">
+                    Our AI provides approximations based on similar items and market data. For official valuations, we recommend consulting a professional appraiser. AI estimates are for informational purposes only.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I export my inventory?</div>
+                <div class="faq-answer">
+                    Yes! You can export your entire inventory as a PDF from the vault menu. This is perfect for insurance documentation or personal records.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Does Custoria work offline?</div>
+                <div class="faq-answer">
+                    Yes! Your vault items are cached locally, so you can view them anytime, even without internet. New items or edits will sync when you're back online.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I delete my account?</div>
+                <div class="faq-answer">
+                    Go to Settings → Danger Zone → Delete Account. This will permanently delete all your data. This action cannot be undone.
+                </div>
+            </div>
+
+            <h2>Response Time</h2>
+            <p>We typically respond to support requests within 24-48 hours. For urgent issues, please mention "URGENT" in your subject line.</p>
+
+            <h2>Business Hours</h2>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM PST<br>
+            Saturday - Sunday: Closed</p>
+        </div>
+
+        <footer>
+            <p><strong>CustoriaLabs</strong></p>
+            <p>300 Palm Ave, Oakland, CA 94610, United States</p>
+            
+            <div class="quick-links">
+                <a href="privacy_policy.html">Privacy Policy</a>
+                <a href="terms_of_service.html">Terms of Service</a>
+                <a href="https://custorialabs.io" target="_blank">Website</a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.9em;">© 2026 CustoriaLabs. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
